@@ -1,0 +1,60 @@
+header img{
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 0px auto;
+  border-radius: 50%;
+  border:1px black solid ;
+}
+header{
+     border:1px black solid  ;
+     padding: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(110, 5, 5);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p{
+    text-align: center;
+    font-family: fantasy;
+  
+}
+input {
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+button{
+    padding: 2px 30px;
+    background-color: chartreuse;
+    border: black 1px dotted;
+    border-radius: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.para{
+    color: rgb(166, 194, 9);
+    font-family: monospace;
+    display: inline-block;
+    border: 1px rgb(0, 0, 0) solid;
+  
+}
+h1{
+    color: chocolate;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+   
+    text-decoration: underline;
+    color: darkmagenta;
+    font-family: 'Courier New', Courier, monospace;
+}

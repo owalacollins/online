@@ -1,0 +1,68 @@
+header img{
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+body{
+    background-image: url(../images/logo.png);
+    flex-direction: column;
+    display: flex;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width:100vw ;
+    height: 100%;
+   
+}
+.cover{
+    background-color: transparent;
+     height:100%;
+     width:90% ;
+     background-color: white;
+     opacity: 0.9;
+}
+input{
+  display: block;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  border: rgb(140, 0, 255) solid 3px;
+  color: rgb(96, 255, 5);
+  background-color: transparent;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    border: red solid 1px;
+    align-items: center;
+}
+button{
+    padding: 5px 30px;
+    border: yellow solid 1px;
+    background:transparent;
+    border-radius: 10px;
+    display: block;
+    margin: 0px auto;
+    color: rgb(3, 3, 3);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+   
+}
+.log{
+    background-color: rgb(3, 3, 248);
+}
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+a{
+    text-decoration: none;
+}
